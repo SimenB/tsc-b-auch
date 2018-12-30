@@ -1,0 +1,14 @@
+{
+  "name": "tsc-b-auch",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -b packages/proj-1/ packages/proj-2/"
+  },
+  "dependencies": {
+    "typescript": "^3.3.0-dev.20181229"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
